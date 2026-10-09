@@ -1,0 +1,14 @@
+
+name: 'Vowel Frequency Analyzer'
+description: 'Analyze vowel frequency in text'
+inputs:
+  text:
+    description: 'Text to analyze'
+    required: true
+    default: 'Hello World'
+outputs:
+  frequency:
+    description: 'Vowel frequency results'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
