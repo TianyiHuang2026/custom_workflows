@@ -1,3 +1,2 @@
-
-#!/bin/bash
-python /app/frequency.py
+#!/bin/sh
+exec python /app/frequency.py
