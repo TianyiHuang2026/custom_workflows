@@ -1,6 +1,6 @@
 
 name: GitHub Projects Automation
-
+# Test automatic Issue status update
 on:
   pull_request:
     types: [closed]
